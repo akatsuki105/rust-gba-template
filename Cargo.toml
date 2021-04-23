@@ -1,0 +1,11 @@
+[package]
+name = "gba-template"
+version = "0.1.0"
+authors = ["Akihiro Otomo <bluejapan73+dev@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+gba = { git = "https://github.com/rust-console/gba", rev = "263f7909de284f142ca19f32fb73aba530420112" }
+panic-abort = "0.3.2"
+rand = { version = "0.8.0", default-features = false, features = ["small_rng"] }
+voladdress = "0.3.0"
