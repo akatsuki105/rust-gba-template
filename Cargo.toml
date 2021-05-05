@@ -1,7 +1,7 @@
 [package]
 name = "gba-template"
 version = "0.1.0"
-authors = ["Akihiro Otomo <bluejapan73+dev@gmail.com>"]
+authors = ["pokemium <bluejapan73+dev@gmail.com>"]
 edition = "2018"
 
 [dependencies]
